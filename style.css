@@ -1,0 +1,281 @@
+.container {
+    padding: 0;
+    margin: 0;
+    border: 2px solid black;
+    height: 215vh;
+    width: 50rem;
+    box-sizing: border-box;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    gap: 1rem;
+    background-color: lightsalmon;
+    color: rgb(0, 0, 0);
+}
+    .header .fa-user-left {
+    font-size: 2rem;
+    margin-top: 0.7rem;
+    }
+
+    .header .fa-user-circle {
+        font-size: 3rem;
+        margin-top: 0.2rem;
+    }
+
+    .header .user {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        line-height: 0.3rem;
+    }
+
+.time {
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.5rem;
+    background-color:white;
+    color: grey;
+
+}
+
+    .time:before {
+        content: "";
+        display: block;
+        width: 20rem;
+        height: 0.14rem;
+        position: absolute;
+        background-color: grey;
+        color: grey;
+        left: 0;
+        top: 3.5%;
+    }
+
+    .time:after {
+        content: "";
+        display: block;
+        width: 20rem;
+        height: 0.15rem;
+        position: absolute;
+        background-color: grey;
+        right: 0;
+        top: 3.5%
+    }
+
+.send {
+    margin-top: 3rem;
+    font-family: 'Roboto', sans-serif;
+    width: 27rem;
+    border: 2px solid greenyellow;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 2rem;
+    display: flex;
+}
+.send::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+
+.left .l-text .fas {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    letter-spacing: 0.5rem;
+    color: black;
+}
+
+.left .l-text span {
+    font-size: 3.2rem;
+    margin-top: 5.5rem;
+    color: black;
+}
+
+.left p {
+    margin-left: 3rem;
+    line-height: 0.2rem;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    color: grey;
+}
+
+.left .r-text {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+    .left .r-text .fa-check {
+        color: rgb(87, 170, 4);
+        margin-left: 9rem;
+        font-size: 1.3rem;
+    }
+    
+
+    .left .r-text .fa-chevron-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13rem;
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+.time-left {
+    text-align: right;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 2.5rem;
+    margin-top: 0.5rem;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pending {
+    margin-top: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    width: 27rem;
+    border: 2.5px solid lightseagreen;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 2rem;
+    display: flex;
+}
+
+    .pending .btn {
+        border: none;
+        outline: none;
+        padding: 0.4rem 2rem;
+        border-radius: 8px;
+        border: 2px solid rgb(62, 160, 167);
+        margin: 0rem 2rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        font-size: 1rem;
+        color: black;
+    }
+
+    .pending .r-text .fa-link {
+        color: rgb(172, 169, 169);
+        margin-top: -0.3rem;
+        margin-left: 3rem;
+        font-size: 1.1rem;
+        transform: rotate(40deg);
+        letter-spacing: 0.2rem;
+    }
+
+    .pending .r-text .fa-chevron-right {
+        margin-right: 4rem;
+        margin-top: 2rem;
+    }
+
+.right {
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+    .right .l-text .fas {
+        font-size: 2.2rem;
+        margin-left: 1rem;
+        margin-top: 2.5rem;
+        letter-spacing: 0.5rem;
+        color: black;
+    }
+
+    .right .l-text span {
+        font-size: 3.2rem;
+        margin-top: 5rem;
+        color: black;
+    }
+
+    .right p {
+        margin-left: 3.5rem;
+        line-height: 0.1rem;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        color: grey;
+    }
+
+    .right .r-text {
+        margin-top: 2.5rem;
+        margin-left: 0.5rem;
+        color: grey;
+        font-style: italic;
+    }
+
+        .right .r-text .fa-check {
+            color: rgb(87, 170, 4);
+            margin-left: 9rem;
+            font-size: 1.4rem;
+        }
+
+        .right .r-text .fa-chevron-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15rem;
+            margin-top: 1.5rem;
+            font-size: 1.5rem;
+            color: #000;
+        }
+
+.time-right {
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.buttons {
+    display: flex;
+    margin: 0 1rem;
+}
+
+    .buttons .btn {
+        margin: 0 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .buttons .btn-sm {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        border: none;
+        outline: none;
+        padding: 0.1rem 1rem;
+        border-radius: 8px;
+        border: 2px solid rgb(62, 160, 167);
+        color: black;
+    }
+
+.get .r-text .fa-link {
+    color: rgb(172, 169, 169);
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+    transform: rotate(40deg);
+    letter-spacing: 0.2rem;
+}
+
+
+.get .r-text .fa-chevron-right {
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
